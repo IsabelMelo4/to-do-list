@@ -30,12 +30,12 @@ public class TaskModel {
   pode ter no máximo 50 char**/
   private String titulo;
 
-
-    private String Descricao;
+    private String descricao;
     private LocalDateTime startAtv;
     private  LocalDateTime endAtv;
     private String priority;
     private UUID userId;
+    private String status;
 
     @CreationTimestamp
     private LocalDateTime createdAtv;
@@ -43,13 +43,24 @@ public class TaskModel {
 
     //getters e setters
 
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+
+
     public UUID getId() {
 
         return id;
     }
 
-    public String getDescrição() {
-        return Descricao;
+    public String getDescricao() {
+        return descricao;
     }
 
     public String getTitulo() {
@@ -80,8 +91,8 @@ public class TaskModel {
         this.id = id;
     }
 
-    public void setDescrição(String descrição) {
-        Descricao = descrição;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public void setTitulo(String titulo) {
