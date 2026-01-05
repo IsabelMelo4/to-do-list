@@ -2,8 +2,7 @@
 
 ## Sobre o Projeto
 
-API desenvolvida para o gerenciamento de tarefas utilizando **Java** e **Spring Boot**, baseada em um módulo de estudo da plataforma **Rocketseat**.
-
+API desenvolvida para o gerenciamento de tarefas utilizando **Java** e **Spring Boot**
 Funcionalidades
 
 * Criar, atualizar, visualizar e deletar tarefas.
